@@ -1,0 +1,185 @@
+.main {
+  display: grid;
+  grid-template-areas: "header" "body" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100vh;
+}
+
+.header,
+.footer {
+  background: linear-gradient(white, rgb(56, 56, 85));
+  color: rgb(26, 22, 22);
+}
+header {
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headLink {
+  color: rgb(51, 53, 52);
+  text-decoration: none;
+}
+.headLink:hover {
+  color: orange;
+}
+.search-bar {
+  position: fixed;
+  margin-top: -55px;
+  margin-left: 500px;
+}
+.search-text {
+  width: 300px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  margin: 3px;
+  border: 0.3px solid rgb(56, 56, 85);
+  cursor: pointer;
+}
+.search-button {
+  padding: 5px 20px;
+  border-radius: 30px;
+  margin: 3px;
+  border: 0.3px solid rgb(56, 56, 85);
+  cursor: pointer;
+}
+.body {
+  margin-top: 20px;
+}
+.footer p {
+  align-items: center;
+  margin-left: 600px;
+}
+/*navigation*/
+nav {
+  margin-top: -6px;
+  margin-left: -40px;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  padding-right: 30px;
+  padding-top: 8px;
+}
+nav li:hover {
+  color: orange;
+  cursor: pointer;
+}
+.doctorLogin {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: -50px;
+  cursor: pointer;
+  color: rgb(51, 53, 52);
+}
+.docLogInForm,
+.patientForm {
+  border: black 1px solid;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 600px;
+  margin-top: 30px;
+}
+.patientForm {
+  margin-top: -300px;
+}
+.DocLogInButton {
+  background-color: teal;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.products {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.doc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 10px;
+}
+.doc:hover {
+  background-color: rgb(121, 114, 114);
+}
+.doc-image,
+.doc-name {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.doc-image {
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
+}
+.doc-name,
+.doc-brand,
+.doc-rating {
+  text-align: center;
+  margin-top: 5px;
+  color: orange;
+}
+
+.patient-detail-head {
+  border: 0.5px solid black;
+  padding: 5px;
+  border-collapse: collapse;
+  width: 170px;
+}
+th .patient-detail-head,
+th .patient-detail-id {
+  background-color: peru;
+}
+.patient-lists {
+  margin-left: 50px;
+}
+.patient-detail-id {
+  border: 0.5px solid black;
+  padding: 5px;
+  border-collapse: collapse;
+  width: 210px;
+}
+.emergency-image {
+  position: fixed;
+  margin-top: -200px;
+  margin-left: 600px;
+}
+.error {
+  color: red;
+}
+.pages {
+  margin-left: 600px;
+}
+.pageNo li {
+  border: solid black 0.2px;
+  padding: 3px;
+  cursor: pointer;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 3px;
+}
+.pageNo li:hover {
+  color: orange;
+}
+.download-pdf {
+  margin-left: 600px;
+  margin-top: 30px;
+}
+.delete-patient {
+  color: red;
+  border: black;
+  cursor: pointer;
+  margin-left: -20px;
+}
