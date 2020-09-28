@@ -49,7 +49,7 @@ Start mongod.exe file in present in "C:\Program Files\MongoDB\Server\4.0\bin".
 ## For starting backEnd
 1. Open cmd.
 2. Change the directory to the project location->BackEnd folder.
-3.Type "node backEnd.js".
+3. Type "node backEnd.js".
 
 
 
